@@ -31,4 +31,4 @@ require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec)
 
 # RSpec as default
-task :default => :spec
+# task :default => :spec

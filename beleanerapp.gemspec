@@ -7,11 +7,11 @@ require "beleanerapp/version"
 Gem::Specification.new do |s|
   s.name        = "beleanerapp"
   s.version     = Beleanerapp::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Beleanerapp."
-  s.description = "TODO: Description of Beleanerapp."
+  s.authors     = ["Jonathan Birkholz"]
+  s.email       = ["rookieone@gmail.com"]
+  s.homepage    = "http://www.beleaner.com"
+  s.summary     = "Mountable rails engine to sync with beleaner"
+  s.description = "Mountable rails engine to sync with beleaner"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
